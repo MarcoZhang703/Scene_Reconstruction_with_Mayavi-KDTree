@@ -1,6 +1,12 @@
 import numpy as np
 import matplotlib.pyplot as plt
+from ctypes import cdll
 import mayavi.mlab
+import os
+
+#p = os.getcwd() + '/main.so'
+#f = cdll.LoadLibrary(p)
+
 
 def readFile(filename, separator):
     data = [[], [], []]
